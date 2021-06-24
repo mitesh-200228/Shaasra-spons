@@ -44,7 +44,7 @@ function Spons() {
             <br/>
             <a href="#google"></a>
             <div id="google"></div>
-            <button title="mitesh" id="flip" className="fill">More Info</button>
+            {/* <button title="mitesh" id="flip" className="fill">More Info</button> */}
             {/* <h1 className="ourspons">Our trustable Sponsors</h1> */}
             {/* <p className="text11">Shaastra, ever since it's conception has been growing by leaps and bounds and this wouldn't have been achieved without the support of the student community and our corporate partners. We are continuously on the look out for long-term and mutually beneficial associations with reputed organizations from around the globe. In case your organization shares and believes in Shaastra’s vision, we would love to work out an association. We always welcome ideas, queries and criticism of any kind and hence, do feel free to contact us.</p> */}
             <br />
@@ -56,7 +56,7 @@ function Spons() {
                     <img src={Astra} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">AstraZeneca</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -73,7 +73,7 @@ function Spons() {
                     <img src={Atlasian} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">ATLASSIAN</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -90,7 +90,7 @@ function Spons() {
                     <img src={Boeing} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">BOEING</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -107,7 +107,7 @@ function Spons() {
                     <img src={CAT} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">CATERPILLAR</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -124,7 +124,7 @@ function Spons() {
                     <img src={KLA} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">KLA</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -141,7 +141,7 @@ function Spons() {
                     <img src={Mahindra} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">MAHINDRA Rise</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -158,7 +158,7 @@ function Spons() {
                     <img src={Salesforces} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">Salesforce</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -175,7 +175,7 @@ function Spons() {
                     <img src={foxmula} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">FOXMULA</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -192,7 +192,7 @@ function Spons() {
                     <img src={innovaccer} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">INNOVACCER</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -209,7 +209,7 @@ function Spons() {
                     <img src={kamal} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">KAMAL wears</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -226,7 +226,7 @@ function Spons() {
                     <img src={LT} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">L&T Construction</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -260,7 +260,7 @@ function Spons() {
                     <img src={subex} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">SUBEX</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -277,7 +277,7 @@ function Spons() {
                     <img src={surana} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">SURANA & SURANA</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
@@ -294,7 +294,7 @@ function Spons() {
                     <img src={Wells} className="img-responsive" alt="" />
                     <span className="cards--three__rect-1">
                         <span className="shadow-1"></span>
-                        <p className="text">MTX</p>
+                        <p className="text">WELLS FARGO</p>
                     </span>
                     <span className="cards--three__rect-2">
                         <span className="shadow-2"></span>
