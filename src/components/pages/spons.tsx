@@ -30,7 +30,7 @@ function Spons() {
 
     return (
         <>
-            <CustomBox >
+            <CustomBox>
             <Header />
      
             <br />
@@ -233,9 +233,9 @@ function Spons() {
             <br />
             <br />
 
-            <Footer />
+            {/* <Footer /> */}
             </CustomBox>
-        </>
+            </>
     )
 }
 
