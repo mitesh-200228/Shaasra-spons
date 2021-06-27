@@ -1,24 +1,13 @@
-// *,
-// *:before,
-// *:after {
-//   margin: 0;
-//   padding: 0;
-//   box-sizing: border-box;
-// }
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 // @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
-// body{
-//   background-color: #1a202c;
-//   font-family: 'Roboto', sans-serif;
-// }
-.mitesh {
-  // margin: 145px auto;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
-  max-width: 100%;
-}
 #flip {
   position: relative;
   left: 0%;
@@ -33,13 +22,6 @@
   max-width: 90%;
   margin: 30px auto;
 }
-// .clear-fix:after {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   clear: both;
-//   content: '';
-// }
 #about {
   font-size: 26px;
   font-weight: 700;
@@ -51,17 +33,6 @@
   display: inline-block;
   transition: 0.2s;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
-}
-.boxx {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 87%;
-  transform: translate(7%, 0%);
-  font-size: 18px;
-  font-family: "Source Sans Pro", sans-serif;
-}
-html {
-  scroll-behavior: smooth;
 }
 /* Tooltip text */
 .tooltip .tooltiptext {
