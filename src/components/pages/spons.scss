@@ -34,6 +34,17 @@
   transition: 0.2s;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
+.boxx {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 87%;
+  transform: translate(7%, 0%);
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
