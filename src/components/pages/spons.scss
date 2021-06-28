@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap");
+
 #flip {
   position: relative;
   left: 0%;
@@ -14,9 +15,9 @@
   margin: 30px auto;
 }
 #about {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 700;
-  font-style: oblique;
+  // font-style: oblique;
   // font-family: 'Source Sans Pro', sans-serif;
 }
 .tooltip {
@@ -31,46 +32,61 @@
   max-width: 87%;
   transform: translate(7%, 0%);
   font-size: 18px;
+  font-weight: 800;
   font-family: "Source Sans Pro", sans-serif;
 }
 html {
   scroll-behavior: smooth;
 }
 /* Tooltip text */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
 .tooltip .tooltiptext {
   visibility: hidden;
-  transition: 0.2s;
-  width: 280px;
-  background-color: #1a202c;
+  width: 300px;
+  // background: ;
   color: #fff;
   text-align: center;
-  padding: 15px 10px 10px 15px;
   border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
+  padding: 5px 0;
+  min-height: 80px;
   position: absolute;
   z-index: 1;
+  top: 100%;
+  left: -22%;
 }
-.tooltip .tooltiptext1 {
-  // visibility: visible;
-  transition: 0.2s;
-  width: 280px;
-  background-color: #1a202c;
-  color: #fff;
-  text-align: center;
-  padding: 15px 10px 10px 15px;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.tooltiptext {
+  background: linear-gradient(230deg, #9abd5c, #4970b4);
+  background-size: 400% 400%;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-animation: back 6s ease infinite;
+  -moz-animation: back 6s ease infinite;
+  animation: back 6s ease infinite;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
+@-webkit-keyframes back {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@-moz-keyframes back {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
+@keyframes back {
+  0%{background-position:0% 14%}
+  50%{background-position:100% 87%}
+  100%{background-position:0% 14%}
+}
 .tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-.tooltip:hover .tooltiptext1 {
   visibility: visible;
 }
 .img-responsive {
@@ -80,12 +96,12 @@ html {
 
 @import "https://fonts.googleapis.com/css?family=Do+Hyeon";
 
-$color-box-1: #381515;
-$color-box-2: rgba(255, 115, 0, 0.8);
-$color-box-3: #22b1c4;
+// $color-box-1: #381515;
+$color-box-2: #4970b4;
+$color-box-3: #c5e789;
 
-$color-box-6: #ff8800;
-$color-box-7: #ffa600;
+$color-box-6: #89aff1;
+// $color-box-7: #ffa600;
 
 // .text{
 //   color: #000;
@@ -93,6 +109,8 @@ $color-box-7: #ffa600;
 .card__collection {
   position: relative;
   display: block;
+  // display: inline-grid;
+  // grid-template-columns: auto;
   // background: rgba(10,10,10,.5);
   padding: 10px;
   font-family: "Do Hyeon", sans-serif;
@@ -100,7 +118,7 @@ $color-box-7: #ffa600;
 
   .cards {
     width: 290px;
-    height: 350px;
+    height: 330px;
     display: block;
     background-size: cover;
     float: left;
@@ -160,6 +178,8 @@ $color-box-7: #ffa600;
   }
 
   &__rect-1 {
+    border-radius: 9px;
+
     background: #fff;
     width: 200px;
     height: 110px;
@@ -180,6 +200,7 @@ $color-box-7: #ffa600;
     }
 
     .shadow-1 {
+      border-radius: 9px;
       background: $color-box-6;
       width: 230px;
       height: 100px;
@@ -231,6 +252,7 @@ $color-box-7: #ffa600;
     }
 
     .shadow-2 {
+      border-top-left-radius: 9px;
       background: $color-box-3;
       width: 100%;
       height: 100%;
