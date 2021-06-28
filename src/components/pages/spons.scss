@@ -113,10 +113,10 @@ html {
 }
 
 @import "https://fonts.googleapis.com/css?family=Do+Hyeon";
-
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@315&family=Ubuntu&display=swap");
 // $color-box-1: #381515;
-$color-box-2: #4970b4;
-$color-box-3: #c5e789;
+$color-box-2: #0f2c5e;
+$color-box-3: #27377c;
 
 $color-box-6: #89aff1;
 // $color-box-7: #ffa600;
@@ -124,32 +124,21 @@ $color-box-6: #89aff1;
 // .text{
 //   color: #000;
 // }
-@media only screen and (max-width: 529px) {
-  .card__collection {
-    position: relative;
-    display: inline-grid;
-    grid-template-columns: auto;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@315&display=swap");
 
-    padding: 10px;
-    font-family: "Do Hyeon", sans-serif;
-    overflow: hidden;
-  }
-}
 .card__collection {
   position: relative;
   display: block;
-  display: grid;
-  grid-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  // background: rgba(10,10,10,.5);
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 10px;
   font-family: "Do Hyeon", sans-serif;
-  overflow: hidden;
-  // align-items: ;
+
   .cards {
     width: 250px;
-    height: 330px;
+    height: 321px;
     display: block;
     background-size: cover;
     float: left;
@@ -174,6 +163,10 @@ $color-box-6: #89aff1;
 
       .text {
         color: #000;
+        float: left;
+        // font-family: 'Oswald', sans-serif;
+        font-family: "Oswald", sans-serif;
+        font-family: "Ubuntu", sans-serif;
       }
     }
 
