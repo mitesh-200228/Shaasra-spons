@@ -23,7 +23,7 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  transition: 0.2s;
+  transition: 0.3s;
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 .boxx {
@@ -118,7 +118,7 @@ html {
 $color-box-2: #0f2c5e;
 $color-box-3: #27377c;
 
-$color-box-6: #89aff1;
+// $color-box-6: #89aff1;
 // $color-box-7: #ffa600;
 
 // .text{
@@ -164,6 +164,7 @@ $color-box-6: #89aff1;
       .text {
         color: #000;
         float: left;
+        font-size: 14px;
         // font-family: 'Oswald', sans-serif;
         font-family: "Oswald", sans-serif;
         font-family: "Ubuntu", sans-serif;
@@ -214,7 +215,7 @@ $color-box-6: #89aff1;
     opacity: 0.9;
     left: -100%;
     z-index: 8;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
 
     p {
       font-size: 20px;
@@ -225,7 +226,8 @@ $color-box-6: #89aff1;
 
     .shadow-1 {
       border-radius: 9px;
-      background: $color-box-6;
+      background-image: linear-gradient( 109.6deg,  rgba(96,221,142,1) 11.2%, rgba(24,138,141,1) 91.1% );
+
       width: 230px;
       height: 100px;
       display: block;
@@ -246,46 +248,32 @@ $color-box-6: #89aff1;
     opacity: 0.9;
     transform: skewX(-20deg);
     z-index: 8;
-    transition: all 0.5s ease-in;
+    transition: all 0.3s ease-in;
 
     &::before {
       content: "";
       display: block;
       width: 50px;
       height: 40px;
-      background: $color-box-3;
+      background: linear-gradient(to bottom left,#959992,#e4e4d9);
       opacity: 1;
       position: absolute;
       left: 500%;
       top: 10%;
-      transition: all 0.3s ease-in;
-    }
-
-    &::after {
-      content: "";
-      display: block;
-      width: 50px;
-      height: 40px;
-      background: $color-box-6;
-      opacity: 1;
-      position: absolute;
-      left: 500%;
-      top: 114%;
-      transition: all 0.5s ease-in;
-      transition-delay: 0.2s;
+      transition: all 0.1s ease-in;
     }
 
     .shadow-2 {
       border-top-left-radius: 9px;
-      background: $color-box-3;
+      background: linear-gradient(to bottom left,#215f00,#e4e4d9);
       width: 100%;
       height: 100%;
       display: block;
       position: absolute;
       top: -10%;
       left: 500%;
-      transition: all 0.5s ease-in;
-      transition-delay: 0.2s;
+      transition: all 0.3s ease-in;
+      transition-delay: 0.3s;
     }
   }
 }
