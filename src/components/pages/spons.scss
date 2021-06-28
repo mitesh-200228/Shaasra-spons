@@ -60,31 +60,49 @@ html {
   top: 100%;
   left: -22%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 .tooltiptext {
   background: linear-gradient(230deg, #9abd5c, #4970b4);
   background-size: 400% 400%;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   -webkit-animation: back 6s ease infinite;
   -moz-animation: back 6s ease infinite;
   animation: back 6s ease infinite;
 }
 
 @-webkit-keyframes back {
-  0%{background-position:0% 14%}
-  50%{background-position:100% 87%}
-  100%{background-position:0% 14%}
+  0% {
+    background-position: 0% 14%;
+  }
+  50% {
+    background-position: 100% 87%;
+  }
+  100% {
+    background-position: 0% 14%;
+  }
 }
 @-moz-keyframes back {
-  0%{background-position:0% 14%}
-  50%{background-position:100% 87%}
-  100%{background-position:0% 14%}
+  0% {
+    background-position: 0% 14%;
+  }
+  50% {
+    background-position: 100% 87%;
+  }
+  100% {
+    background-position: 0% 14%;
+  }
 }
 @keyframes back {
-  0%{background-position:0% 14%}
-  50%{background-position:100% 87%}
-  100%{background-position:0% 14%}
+  0% {
+    background-position: 0% 14%;
+  }
+  50% {
+    background-position: 100% 87%;
+  }
+  100% {
+    background-position: 0% 14%;
+  }
 }
 .tooltip:hover .tooltiptext {
   visibility: visible;
@@ -106,18 +124,31 @@ $color-box-6: #89aff1;
 // .text{
 //   color: #000;
 // }
+@media only screen and (max-width: 529px) {
+  .card__collection {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: auto;
+
+    padding: 10px;
+    font-family: "Do Hyeon", sans-serif;
+    overflow: hidden;
+  }
+}
 .card__collection {
   position: relative;
   display: block;
-  // display: inline-grid;
-  // grid-template-columns: auto;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   // background: rgba(10,10,10,.5);
+
   padding: 10px;
   font-family: "Do Hyeon", sans-serif;
   overflow: hidden;
-
+  // align-items: ;
   .cards {
-    width: 290px;
+    width: 250px;
     height: 330px;
     display: block;
     background-size: cover;
